@@ -4,7 +4,7 @@
 
 /// GLOBALS
 var coins               = ["BTC"] // Coins Array, initiates with Bitcoin
-var blockChainUrl       = "http://www.coincap.io/history/30day/" // API
+var blockChainUrl       = "https://www.coincap.io/history/30day/" // API
 var coinsPrices         = []; // Holder for information of each coin
 
 //Coll on init document with Jquery.
