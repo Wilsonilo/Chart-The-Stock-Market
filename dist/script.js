@@ -29,6 +29,7 @@ $(document).ready(function(){
             $("#canvasarea").append('<canvas id="chart" width="1000" height="500"></canvas>').each(function() {
                 coin = coin.toUpperCase();
                 coins.push(coin);
+                $("#addcoin").val(""); //reset
                 callCoins();
             })
 
