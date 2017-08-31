@@ -1,0 +1,29 @@
+{
+  "name": "chart-the-stock-market",
+  "version": "1.0.0",
+  "description": "Freecodecamp Challenge for Chart the Stock Market",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilsonilo/Chart-The-Stock-Market.git"
+  },
+  "keywords": [
+    "chart",
+    "blockchain",
+    "javascript",
+    "api"
+  ],
+  "author": "Wilson Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wilsonilo/Chart-The-Stock-Market/issues"
+  },
+  "homepage": "https://github.com/Wilsonilo/Chart-The-Stock-Market#readme",
+  "dependencies": {
+    "chart.js": "^2.6.0",
+    "moment": "^2.18.1"
+  }
+}

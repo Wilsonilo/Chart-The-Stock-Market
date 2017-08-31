@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chart the Stock Market</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../node_modules/chart.js/dist/Chart.min.js"></script>
+<script type="text/javascript" src="../node_modules/moment/min/moment.min.js"></script>
+
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script>
+ --><body>
+	<div class="container animated pulse">
+		<div class="row">
+			<div class="col" id="canvasarea">
+				<div id="loading" class="animated flip">Loading...</div>
+				<canvas id="chart" width="1000" height="500"></canvas>
+			</div>
+		</div>
+		<div class="row jumbotron">
+			<div class="col">
+				<h3>Add Coin:</h3>
+				<div class="form-group">
+					<input type="text" name="coin" id="addcoin" placeholder="Example: ETH" class="form-control">
+					<small  class="form-text text-muted">See list of coins: <a href="http://www.coincap.io/" target="_blank">http://www.coincap.io/</a></small>
+				</div>
+				<button class="btn btn-primary btn-sm" id="addcoinbutton" >Add Coin</button>
+			</div>
+		</div>
+		<footer class="row">
+			<div class="col">
+				<hr>
+				<small>
+					Made with love for Freecodecamp.org by Wilson Muñoz.
+					<br>
+					Info source: <a href="https://github.com/CoinCapDev/CoinCap.io" target="_blank">https://github.com/CoinCapDev/CoinCap.io</a>
+					<br>
+					Github Repo: <a href="https://github.com/Wilsonilo/Chart-The-Stock-Market" target="_blank">https://github.com/Wilsonilo/Chart-The-Stock-Market</a>
+				</small>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
